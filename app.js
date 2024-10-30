@@ -5,7 +5,7 @@ const PORT = 3000;
 app.set('view engine', 'ejs');
 app.set('views', './views')
 app.get('/', (req,res) => {
-    res.send('Caraca, não é que eu consegui fazer uma api Node.js usando Express <3 que emoção manoooooooo!');
+    res.send('Exercício simples, apenas para exemplo');
 });
 
 app.listen(PORT, () => {
